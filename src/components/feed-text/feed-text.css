@@ -1,0 +1,168 @@
+.feed-text-wrap {
+  display: flex;
+  visibility: visible;
+  justify-content: center;
+}
+
+.feed-text-wrap_hidden {
+  visibility: hidden;
+}
+
+.feed-text {
+  margin: 40px 0 0 0;
+  padding: 12px 40px 25px;
+  max-width: 780px;
+  min-width: 319px;
+}
+
+.feed-text-wrap_theme_light {
+  background-color: #edeff2;
+}
+
+.feed-text_theme_light a:visited,
+.feed-text_theme_light a:active {
+  color: #494949;
+}
+
+.feed-text_theme_dark a {
+  color: #8b93ff;
+}
+
+.feed-text_theme_dark a:visited,
+.feed-text_theme_dark a:active {
+  color: #ebebeb;
+}
+
+.feed-text_theme_light {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.feed-text-wrap_theme_dark {
+  background-color: #1a1b1c;
+}
+
+
+.feed-text_theme_dark {
+  color: #bfbfbf;
+  background-color: #272829;
+}
+
+.feed-text__content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.65rem;
+}
+
+.feed-text__date {
+  margin-top: 4px;
+  font-size: 1rem;
+}
+
+.feed-text__title {
+  margin-top: 20px;
+}
+
+.feed-text__h1 {
+  font-family: 'Pt Serif Regular', 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  margin: 18px 0;
+}
+
+.feed-text__img img {
+  display: block;
+  width: 100%;
+  margin: 26px auto 20px;
+}
+
+p img, p iframe {
+  width: 100% !important;
+}
+
+p img {
+  height: auto !important;
+}
+
+p iframe {
+  /* height: calc(83vh*9/16); */
+  height: calc(780px*9/16);
+
+}
+
+@media (max-width: 766px) {
+  .feed-text {
+    max-width: 700px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .feed-text__content {
+    font-size: 1.2rem;
+    line-height: 1.55rem;
+  }
+
+  .feed-text__h1 {
+    font-size: 1.8rem;
+    line-height: 2.0rem;
+  }
+
+  p iframe {
+    height: calc(90vw*9/16);
+  }
+}
+
+@media (max-width: 470px) {
+  .feed-text {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+   .feed-text__title, .feed-text__date {
+    font-size: 1rem;
+  }
+
+  .feed-text__date {
+    margin-top: 3px;
+  }
+
+  .feed-text__h1 {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    margin: 14px 0;
+  }
+
+  .feed-text__img img {
+    margin: 22px auto 18px;
+  }
+
+  .feed-text__content {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
+
+  .feed-text {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+
+@media (min-width: 10px) and (max-width: 420px) {
+  .feed-text__title, .feed-text__date {
+    font-size: 1rem;
+  }
+
+  .feed-text__date {
+    margin-top: 3px;
+  }
+
+  .feed-text__h1 {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+
+  .feed-text__content {
+    font-size: 1.0rem;
+    line-height: 1.35rem;
+  }
+}

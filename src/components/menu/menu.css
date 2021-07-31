@@ -1,0 +1,60 @@
+.menu-items-wrap {
+  position: relative;
+}
+
+.menu-sources-list, .all-sources {
+  position: absolute;
+  left: -20px;
+  font-size: 1.3rem;
+  font-weight: 400;
+  list-style: none;
+}
+
+.all-sources {
+  position: relative;
+  padding: 10px 20px;
+}
+
+.menu-close-wrap {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.menu-sources-list li {
+  padding: 10px 20px;
+}
+
+.all-sources:hover, .menu-sources-list li:hover {
+  cursor: pointer;
+}
+
+.menu-sources-list_theme_dark {
+  color: #e2e2e2;
+}
+
+.menu-sources-list.menu-sources-list_theme_light li:hover {
+  background-color: #cecbcb;
+}
+
+.menu-sources-list.menu-sources-list_theme_dark li:hover {
+  background-color: #4c4c4c;
+}
+
+.selected {
+  margin-left: 0;
+  padding: 10px 20px;
+}
+
+.selected_theme_light {
+  background-color: #cecbcb;
+}
+
+.selected_theme_dark {
+  color: #bfbfbf;
+  background-color: #4c4c4c;
+}
+
+li.selected:hover, .selected:hover {
+  cursor: auto;
+}

@@ -1,0 +1,31 @@
+.input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.input_theme_dark {
+  border: 1px solid #9aa0a6;
+  color: #e8eaed;
+  background-color: #3a3b3c;
+}
+
+.input_theme_light {
+  border: 1px solid #9aa0a6;
+  color: #000000;
+  background-color: #edeff2;
+}
+
+.input_theme_light:focus, .input_theme_dark:focus {
+  outline: 1px solid #9aa0a6;
+}
+
+::-webkit-input-placeholder {
+  color: #9aa0a6;
+}
+
+:-ms-input-placeholder {
+  color: #9aa0a6;
+}

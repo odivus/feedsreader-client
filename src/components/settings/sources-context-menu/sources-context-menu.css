@@ -1,0 +1,44 @@
+.context-menu {
+  width: 220px;
+  padding: 15px 0px;
+  opacity: 1;
+  z-index: 9;
+}
+
+.context-menu_theme_dark {
+  background: #303030;
+}
+
+.context-menu_theme_light {
+  background: #d8d8d8;
+}
+
+.context-menu__item {
+  display: flex;
+  align-items: center;
+  height: 50px; 
+}
+
+.context-menu__item:hover {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.context-menu__item_theme_light:hover {
+  background-color: #ffffff;
+}
+
+.context-menu__item_theme_dark:hover {
+  filter: brightness(200%);
+  background-color: #252525;
+}
+
+.context-menu__item_theme_light .icons-wrap-selected .icons {
+  filter: brightness(50%);
+}
+
+.icons-wrap_context_menu {
+  width: 20px;
+  height: 20px;
+  margin: 0 20px;
+}

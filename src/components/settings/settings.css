@@ -1,0 +1,81 @@
+.modal-settings_no-scroll {
+  overflow: hidden !important;
+}
+
+.modal-settings {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.modal-settings_size_sm {
+  width: 80%;
+  min-width: 318px;
+  max-width: 550px;
+  padding: 20px;
+}
+
+.modal-settings_theme_dark {
+  color: #bfbfbf;
+  background-color: #272829;
+}
+
+.modal-settings_theme_light {
+  background-color: #edeff2;
+  color: #000000;
+}
+
+.modal-settings.modal-settings_theme_light a {
+  color: #000000;
+}
+
+.modal-settings.modal-settings_theme_dark a {
+  color: #bfbfbf;
+}
+
+.settings-items-wrap {
+  margin-top: 36px;
+  width: 100%;
+}
+
+.settings-items-wrap__position-left {
+  position: relative;
+  left: -20px;
+  top: -8px;
+}
+
+.icons-capture-box {
+  display: flex;
+  flex-direction: row;
+  max-width: 318px;
+}
+
+.icons-capture-wrap, .icons-capture-wrap_selected {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin-right: 22px;
+}
+
+.icons-capture {
+  margin-top: 6px;
+}
+
+.icon-selected {
+  filter: brightness(200%);
+}
+
+.icons-capture_selected {
+  color: #f3f3f3;
+}
+
+.icons-capture-wrap:hover {
+  filter: brightness(200%);
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+

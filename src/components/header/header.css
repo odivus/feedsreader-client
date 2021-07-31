@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 2048px;
+  z-index: 10;
+  padding: 4px 8px 4px 12px;
+  justify-content: space-between;
+}
+
+.header_theme_light {
+  background-color: #edeff2;
+}
+
+.header_theme_dark {
+  background-color: #1a1b1c;
+}
+
+.header_shaddow_drop {
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.28);
+}
+
+.header-logo-page-wrap {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  width: 211px;
+  height: 42px;
+}
+
+.header-controls-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 42px;
+  margin-left: 20px;
+}

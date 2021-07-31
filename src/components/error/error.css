@@ -1,0 +1,23 @@
+.error-message {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+  padding: 20px 20px;
+  width: 100%;
+  height: auto;
+}
+
+.error-message__text {
+  font-size: 2rem;
+}
+
+.error-message__img {
+  background-image: url('https://media.giphy.com/media/20k1punZ5bpmM/giphy.gif');
+  margin-top: 20px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 400px;
+}

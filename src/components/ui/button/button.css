@@ -1,0 +1,165 @@
+.button {
+  display: block;
+  padding: 10px 20px;
+  width: 150px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.button-social-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.button-social-wrap__icon {
+  margin-right: 6px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  width: 32px;
+  height: 32px;
+}
+
+.button_social_login {
+  font-weight: 300;
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+.button_social_login:hover {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button_social_google {
+  outline: solid #fbbc05;
+  background-color: #fbbc05;
+}
+
+.button_social_google:hover {
+  background-color: #e9b005;
+}
+
+.button_social_google:focus {
+  outline: solid #ce9a00;
+}
+
+.button_social_google:active {
+  background-color: #ce9a00;
+}
+
+.button_social_facebook {
+  outline: solid #0779e9;
+  background-color: #0779e9;
+}
+
+.button_social_facebook:hover {
+  background-color: #076dd3;
+}
+
+.button_social_facebook:focus {
+  outline: solid #005fbe;
+}
+
+.button_social_facebook:active {
+  background-color: #005fbe;
+}
+
+.button_social_github {
+  outline: solid #2ebc4f;
+  background-color: #2ebc4f;
+}
+
+.button_social_github:hover {
+  background-color: #29ac48;
+}
+
+.button_social_github:focus {
+  outline: solid #20943b;
+}
+
+.button_social_github:active {
+  background-color: #20943b;
+}
+
+.button_theme_dark, .button_theme_light {
+  background-color: #f48f25;
+  color: #ffffff;
+}
+
+.button_theme_dark:hover, .button_theme_light:hover {
+  background-color: #d87e1d;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.button_theme_dark:active, .button_theme_light:active {
+  background-color: #be6709;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.button_theme_dark:focus, .button_theme_light:focus {
+  outline: none;
+  border-color: #f48f25;
+  box-shadow: 0 0 4px rgba(255, 167, 72, 0.842)
+}
+
+.button_theme_dark:disabled {
+  background-color: #8f8f8f;
+  color: #3c3f43;
+  cursor: not-allowed;
+}
+
+.button_theme_light:disabled {
+  background-color: #dcdcdc;
+  color: #8f8f8f;
+  cursor: not-allowed;
+}
+
+.button_dialog {
+  float: left;
+  margin-right: 20px;
+  width: 120px;
+  height: 40px;
+}
+
+.button_dialog_cancel {
+  float: none;
+  background-color: #147cf8;
+}
+
+.button_dialog_cancel:hover {
+  background-color: #126bd8;
+}
+
+.button_dialog_cancel:active {
+  background-color: #0951a8;
+}
+
+.button_dialog_cancel:focus {
+  border-color: #147cf8;
+  box-shadow: 0 0 4px rgba(72, 130, 255, 0.842);
+}
+
+.button_dialog_delete {
+  margin-right: 20px;
+  background-color: #f04848;
+}
+
+.button_dialog_delete:hover {
+  background-color: #d63a3a;
+}
+
+.button_dialog_delete:active {
+  background-color: #d12a2a;
+}
+
+.button_dialog_delete:focus {
+  border-color: #fe6362;
+  box-shadow: 0 0 4px rgba(255, 72, 72, 0.842);
+}

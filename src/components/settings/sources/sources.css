@@ -1,0 +1,52 @@
+.source-item-wrap {
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.source-item {
+  margin-top: 7px;
+}
+
+.source-item_theme_light {
+  color: #000000;
+}
+
+.source-item_theme_dark {
+  color: #e2e2e2;
+}
+
+.source-item__p {
+  margin: 7px 0 0 0;
+}
+
+.source-item__p_theme_light {
+  color: #484848;
+}
+
+.source-item__p_theme_dark {
+  color: #99999b;
+}
+
+.source-item__h4 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.icon__sources {
+  background-position: left;
+}
+
+.icons-wrap {
+  background-size: auto auto;
+
+}
+
+.icon-context-menu-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+}

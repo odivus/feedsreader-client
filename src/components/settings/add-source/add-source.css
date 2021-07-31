@@ -1,0 +1,16 @@
+.input-animation {
+    animation-name: shaddow;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shaddow {
+  from {
+    box-shadow: 0 0 0 1px #9aa0a6;
+  }
+  to {
+    box-shadow: 0 0 0 4px #9aa0a6;
+  }
+}

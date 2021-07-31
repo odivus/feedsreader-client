@@ -1,0 +1,1 @@
+export const rssInputCheck = /^(?:http(s)?:\/\/)?[\w.-]+(?:\.[\w.-]+)*[\w\-._~:/?#[\]@!$&'()*+,;=_.]*(\w*rss|feed\b)/;
