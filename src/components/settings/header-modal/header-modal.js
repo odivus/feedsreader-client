@@ -17,17 +17,15 @@ const HeaderModal = (props) => {
   } = props;
 
   return (
-    <>
-      <div className='modal-settings-header'>
-        <SignOut />
-        <Close
-          action={() => {
-            toggleSettingsVisible();
-            closeContextMenu();
-            closeEditSource();
-          }} />
-      </div>
-    </>
+    <div className='modal-settings-header'>
+      <SignOut />
+      <Close
+        action={() => {
+          toggleSettingsVisible();
+          closeContextMenu();
+          closeEditSource();
+        }} />
+    </div>
   );
 }
 

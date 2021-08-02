@@ -1,2 +1,2 @@
-import HeaderModal from './header-modal.js';
+import HeaderModal from './header-modal';
 export default HeaderModal;
