@@ -17,7 +17,7 @@ const HeaderModal = (props) => {
   } = props;
 
   return (
-    <div className='modal-settings-header'>
+    <div className='header-modal-settings'>
       <SignOut />
       <Close
         action={() => {
