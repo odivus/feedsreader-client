@@ -18,7 +18,7 @@ const FormItems = (props) => {
   const { 
     isInvalidPassword,
     signWithGoogle,
-    signWithFacebook,
+    // signWithFacebook,
     signWithGithub,
     isInvalidEmail,
     onSubmit,
@@ -61,7 +61,7 @@ const FormItems = (props) => {
       <form onSubmit={onSubmit} className='form-items form'>
         {signWithGithub}
         {signWithGoogle}
-        {signWithFacebook}
+        {/* {signWithFacebook} */}
         {formText}
         <Input
           className='input input_theme_light'
