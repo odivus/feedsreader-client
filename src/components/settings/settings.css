@@ -1,3 +1,10 @@
+.header-modal-settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .modal-settings_no-scroll {
   overflow: hidden !important;
 }
