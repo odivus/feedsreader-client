@@ -1,4 +1,4 @@
-# Feedsreader-client – клиентская часть приложения для подписки и чтения rss-фидов
+# Feedsreader-client – клиентская часть приложения для чтения rss-фидов
 
 [https://feedsreader-client.herokuapp.com/](https://feedsreader-client.herokuapp.com/) <br>
 По ссылке может открываться дольше обычного, это связяно с ограничениями бесплатного хостинга.
