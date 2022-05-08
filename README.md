@@ -1,6 +1,6 @@
 # Feedsreader-client – клиентская часть приложения для чтения rss-фидов
 
-[Видео-демонстрация работающего приложения до введения санкций](https://player.vimeo.com/video/600475213?h=4bc8735143 target="_blank")
+[Видео-демонстрация работающего приложения до введения санкций](https://player.vimeo.com/video/600475213?h=4bc8735143)
 
 [https://feedsreader-client.herokuapp.com/](https://feedsreader-client.herokuapp.com/) <br>
 *В&nbsp;связи с&nbsp;санкционной блокировкой сервиса Firebase, приложение не&nbsp;работает*.
