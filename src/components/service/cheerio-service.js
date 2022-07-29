@@ -4,7 +4,7 @@ export default class CheerioService {
     try {
       const response = await fetch(getFeedTextUrl, {
         method: 'POST',
-        mode: 'cors',
+        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json',
         },
