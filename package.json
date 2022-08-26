@@ -5,7 +5,6 @@
   "engines": {
     "node": "16.x"
   },
-  "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
     "firebase": "^8.8.1",
