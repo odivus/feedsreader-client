@@ -1,6 +1,9 @@
 {
   "name": "newsagent",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.x"
+  }
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
