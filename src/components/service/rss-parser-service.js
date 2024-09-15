@@ -4,12 +4,16 @@ export default class RssParserService {
     try {
       const response = await fetch(rssParserUrl, {
         method: 'POST',
-        mode: 'no-cors',
+        // mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({ rssUrl: rssUrl }),
       });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
 
       const source = await response.json();
       return JSON.stringify(source);
